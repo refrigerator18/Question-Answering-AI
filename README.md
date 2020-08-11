@@ -4,7 +4,7 @@ This program searches a corpus of text files (parsed from wikipedia, https://pyp
 
 Given a query, the program first finds the most relevant file by using tf-idf values (https://en.wikipedia.org/wiki/Tf%E2%80%93idf). The tf-idf values are summed for every word in the query which is also in the file. Then the file with the highest value is returned. 
 
-After the file is determined, the program returns the sentence with the highest matching word measure (the sum of IDF values for any word in the query that also appears in the sentence). In the case of a tie the sentence with the higher query term density is returned. Query term density is defined as the proportion of words in the sentence that are also words in the query.
+After the file is determined, the program returns the sentence with the highest matching word measure (the sum of idf values for any word in the query that also appears in the sentence). In the case of a tie the sentence with the higher query term density is returned. Query term density is defined as the proportion of words in the sentence that are also words in the query.
 
 Usage and examples:
 ##
