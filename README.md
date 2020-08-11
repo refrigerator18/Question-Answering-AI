@@ -18,6 +18,7 @@ Usage and examples:
 
 ##
 
+*This project was created as a part of the online Harvard CS50-AI Course. https://cs50.harvard.edu/ai/2020/*
 
 
 
